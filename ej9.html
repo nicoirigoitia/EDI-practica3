@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+    <link rel="stylesheet" href="/ruby/EDI/practica3/styles.css" />
+</head>
+
+<body>
+    <div>
+        <b>
+            <h1 class="titulo">Nicolas Irigoitia</h1>
+        </b>
+
+        <h3 class="ej9">Mis Estudios</h3>
+
+        <p>Estudio en Instituto de Formación Docente y Técnica N°210</p>
+    </div>
+
+    <div>
+        <section>
+            <h3 class="ej9">Mis Intereses</h3>
+
+            <ul>Programacion</ul>
+            <ul>Peliculas</ul>
+            <ul>Futbol</ul>
+            <ul>Diseño</ul>
+            <ul>Automoviles</ul>
+
+        </section>
+    </div>
+
+    <div>
+        <section>
+            <h1>Mis Parientes</h1>
+
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Parentesco</th>
+                </tr>
+                <tr>
+                    <td>Noelia</td>
+                    <td>Tozzi</td>
+                    <td>Pareja</td>
+                </tr>
+                <tr>
+                    <td>Camila</td>
+                    <td>Irigoitia</td>
+                    <td>Hija</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <div>
+        <h1>Contacto</h1>
+        <section>
+            <form>
+                <label for="remitente">Remitente:</label><br>
+
+                <input type="text" id="remitente" required><br><br>
+
+
+                <label for="email">E-mail:</label><br>
+
+                <input type="email" id="email" required><br><br>
+
+                <label for="duda">Duda</label>
+
+                <input type="radio" name="opcion" id="duda"><br><br>
+
+                <label for="opinion">Opinion</label>
+
+                <input type="radio" name="opcion" id="opinion"><br><br>
+
+                <label for=""><input type="checkbox" name="orden" value="hamburguesa"> Alta Prioridad </label><br><br>
+
+                <label for="">Pais</label><br><br>
+                <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Peru</option>
+                    <option>Chile</option>
+                    <option>Uruguay</option>
+                </select><br><br>
+
+                <label for="">URL</label><br>
+                <input type="url"><br><br>
+
+                <label for="mensaje">Mensaje: </label><br>
+                <textarea id="mensaje" required></textarea><br><br>
+
+                <input type="submit" value="Enviar"><br><br>
+
+                <input type="reset" value="Borrar información"><br><br>
+
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
